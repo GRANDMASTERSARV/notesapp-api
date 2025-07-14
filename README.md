@@ -1,5 +1,5 @@
-# Notesapp-api
-Notes API – Auto-Clearing Notes App (Spring Boot)
+# NotesAPI
+Auto-Clearing Notes App (Spring Boot)
 
 A secure, RESTful Notes API built using Java and Spring Boot, designed for multi-user note-taking with **automatic daily clearing** of all notes. Ideal for integrating with any frontend via exposed APIs. Includes authentication, secure password storage, and scheduling.
 
