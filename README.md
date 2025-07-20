@@ -6,11 +6,11 @@ A secure, modular RESTful API for temporary note-taking, built with **Java + Spr
 
 ## 🔧 Features
 
-- 🔐 **User Registration & Authentication** with Spring Security (HTTP Basic Auth)
-- 🗃️ **Add and Fetch Notes** per user (data scoped to each authenticated user)
-- ⏰ **Scheduled Daily Cleanup**: All notes auto-deleted every 24 hours via Spring Scheduler
-- 🧪 **Lightweight H2 DB** for in-memory storage — perfect for dev/testing
-- ✅ **Modular, Secure API** for easy frontend consumption (Postman or React-ready)
+-  **User Registration & Authentication** with Spring Security (HTTP Basic Auth)
+-  **Add and Fetch Notes** per user (data scoped to each authenticated user)
+-  **Scheduled Daily Cleanup**: All notes auto-deleted every 24 hours via Spring Scheduler
+-  **Lightweight H2 DB** for in-memory storage — perfect for dev/testing
+-  **Modular, Secure API** for easy frontend consumption (Postman or React-ready)
 
 ---
 
