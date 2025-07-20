@@ -1,14 +1,22 @@
-# NotesAPI
-Auto-Clearing Notes App (Spring Boot)
+# 🗒️ NotesAPI – Auto-Clearing Notes Backend
 
-A secure, RESTful Notes API built using Java and Spring Boot, designed for multi-user note-taking with **automatic daily clearing** of all notes. Ideal for integrating with any frontend via exposed APIs. Includes authentication, secure password storage, and scheduling.
+A secure, modular RESTful API for temporary note-taking, built with **Java + Spring Boot**, designed for multi-user usage , with automatic daily clearing. Cleanly structured for frontend integration and fast testing.
 
 ---
 
-##  Features
+## 🔧 Features
 
--  User registration and authentication using **Spring Security (HTTP Basic Auth)**
--  Add and fetch notes for each authenticated user
--  **Daily auto-clear** of all notes using Spring Scheduler
--  Exposed as a clean REST API for frontend teams or other services
--  In-memory H2 database for easy testing and fast prototyping
+- 🔐 **User Registration & Authentication** with Spring Security (HTTP Basic Auth)
+- 🗃️ **Add and Fetch Notes** per user (data scoped to each authenticated user)
+- ⏰ **Scheduled Daily Cleanup**: All notes auto-deleted every 24 hours via Spring Scheduler
+- 🧪 **Lightweight H2 DB** for in-memory storage — perfect for dev/testing
+- ✅ **Modular, Secure API** for easy frontend consumption (Postman or React-ready)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/sarv-projects/notesapp-api.git
+cd notesapp-api
+./mvnw spring-boot:run
