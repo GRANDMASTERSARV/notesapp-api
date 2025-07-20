@@ -4,7 +4,7 @@ A secure, modular RESTful API for temporary note-taking, built with **Java + Spr
 
 ---
 
-## 🔧 Features
+##  Features
 
 -  **User Registration & Authentication** with Spring Security (HTTP Basic Auth)
 -  **Add and Fetch Notes** per user (data scoped to each authenticated user)
@@ -14,7 +14,7 @@ A secure, modular RESTful API for temporary note-taking, built with **Java + Spr
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 git clone https://github.com/sarv-projects/notesapp-api.git
